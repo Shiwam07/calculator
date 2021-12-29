@@ -1,0 +1,115 @@
+.output {
+  grid-area: output;
+  margin: 0;
+}
+
+#calculate {
+  grid-area: calculation;
+}
+
+#display {
+  grid-area: display;
+  display: flex;
+  flex-direction: column;
+}
+
+.num1 {
+  grid-area: number1;
+}
+
+.num2 {
+  grid-area: number2;
+}
+
+.num3 {
+  grid-area: number3;
+}
+
+.num4 {
+  grid-area: number4;
+}
+
+.num5 {
+  grid-area: number5;
+}
+
+.num6 {
+  grid-area: number6;
+}
+
+.num7 {
+  grid-area: number7;
+}
+
+.num8 {
+  grid-area: number8;
+}
+
+.num9 {
+  grid-area: number9;
+}
+
+.num0 {
+  grid-area: number0;
+}
+
+.dott {
+  grid-area: dott;
+}
+
+.add {
+  grid-area: addition;
+}
+
+.substract {
+  grid-area: substraction;
+}
+
+.multiply {
+  grid-area: multiplication;
+}
+
+.divide {
+  grid-area: division;
+}
+
+.equals {
+  grid-area: equals;
+}
+
+.del {
+  grid-area: delete;
+}
+
+.calclayout {
+  display: grid;
+  grid-template-areas:
+    "output output output output"
+    "addition substraction multiplication division"
+    "number7 number8 number9 equals"
+    "number4 number5 number6 equals"
+    "number1 number2 number3 equals"
+    "number0 dott delete equals";
+  grid-gap: 5px;
+  background-color: #2196f3;
+  padding: 10px;
+  max-width: 20rem;
+  height: 30rem;
+  border: solid 5px black;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+#calculate,
+#display {
+  resize: none;
+  background-color: #fff;
+  border: none;
+  width: 99%;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.calclayout > button {
+  font-size: 1.5rem;
+}

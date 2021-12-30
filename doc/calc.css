@@ -5,12 +5,14 @@
 
 #calculate {
   grid-area: calculation;
+  text-align: right;
 }
 
 #display {
   grid-area: display;
   display: flex;
   flex-direction: column;
+  text-align: right;
 }
 
 .num1 {

@@ -12,6 +12,10 @@ $(document).ready(function () {
     const slicedValue = displayValue.slice(0, displayValue.length - 1);
     $("#display").text(slicedValue);
   });
+  $(".allClear").click(function () {
+    $("#display").text("");
+    $("#calculate").text("");
+  });
   $(".equals").click(function () {
     const displayedValue = $("#display").text();
     function calculate(value) {

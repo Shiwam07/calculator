@@ -82,13 +82,16 @@
 .del {
   grid-area: delete;
 }
+.allClear {
+  grid-area: AC;
+}
 
 .calclayout {
   display: grid;
   grid-template-areas:
     "output output output output"
     "addition substraction multiplication division"
-    "number7 number8 number9 equals"
+    "number7 number8 number9 AC"
     "number4 number5 number6 equals"
     "number1 number2 number3 equals"
     "number0 dott delete equals";
